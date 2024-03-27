@@ -1,0 +1,12 @@
+/* Ne pas modifier */
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    text-align: center;
+}
+
+/* Écrire les nouvelles classes en dessous */
