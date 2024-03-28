@@ -17,5 +17,15 @@ for (var i = 1; i <= nombreBoucle; i++) {
 // 6. Afficher la somme
 console.log("La somme des entiers de 1 à " + nombreBoucle + " est : " + somme);
 
+// Fonction carre
+function carre(nombre) {
+    return nombre * nombre
+}
+
+console.log(carre(25))
+
+// var nombre = prompt("Calculer le carré d'un nombre.");
+//console.log(carre(nombre))
+
 
 // 8. Déclarer la fonction functionClic()
