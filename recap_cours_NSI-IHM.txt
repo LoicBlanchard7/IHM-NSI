@@ -1,0 +1,21 @@
+JS = JavaScript
+JavaScript est un langage de programmation permettant d'interagir sur le web avec l'utilisateur.
+
+Ce langage va permettre de passer d'une page web statique à une page web dynamique.
+	Page web statique = Une page qui ne change pas quelles que soient les interactions de l'utilisateur.
+	Page web dynamique = Une page qui va changer selon les interactions de l'utilisateur.
+
+Le JavaScript permet de modifier les classes du fichier CSS et donc de modifier le style du fichier HTML.
+Nous allons également pouvoir modifier les éléments du fichier HTML directement grâce à des fonctions JS.
+Attention : Les modifications effectuées sont locales (temporaires)!
+
+Les utilisateurs vont interagir à partir des boutons (grâce aux attributs : onclick, onmouseover, ...), aux inputs, ...
+
+Pour le debug, on utilise la console du navigateur.
+
+================================================
+Devoir pour le 04/04/2024 :
+
+Pour la prochaine fois : pip install Flask
+
+Si vous l'avez fait, vérifier que ça fonctionne en créant un fichier.py avec la ligne de code : import Flask
