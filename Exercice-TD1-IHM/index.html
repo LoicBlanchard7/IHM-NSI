@@ -10,7 +10,8 @@
 
     <h2>Changement de couleur !</h2>
     <p id="para">Ce paragraphe va changer de couleur !</p>
-    <button class="bleu"> Bleu </button>
+    <button class="bleu" onclick="changeBleu()"> Bleu </button>
+    <button class="rouge" onclick="changeRouge()"> Rouge </button>
     <br>
     <h2>Inverser un mot !</h2>
     <input type="text" id="mot" placeholder="Entrez votre mot">
@@ -18,10 +19,13 @@
     <div id="motInverse">Votre mot inversé : </div>
     <br>
     <h2>Calculatrice !</h2>
-    <!--Insérer les inputs en dessous.-->
+    <input type="text" id="nombre1" placeholder="Entrez le premier nombre">
+    <input type="text" id="nombre2" placeholder="Entrez le deuxième nombre">
     <br>
-    <button>Addition</button>
-    <!--Insérer les autres boutons en dessous.-->
+    <button onclick="addition()">Addition</button>
+    <button onclick="soustraction()">Soustraction</button>
+    <button onclick="multiplication()">Multiplication</button>
+    <button onclick="division()">Division</button>
     <br>
     <div id="resultat">Résultat : </div>
     <br>
